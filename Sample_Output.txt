@@ -1,0 +1,59 @@
+1) Compounding APY by Recursively function
+2) Compounding APY by Loop and functions.
+3) Quit the program.
+Enter a valid input: 1
+
+Enter a whole number >= 1 for balance.
+balance: 1000
+
+Enter a whole number 1%-10% = 0.01& 0.1 <1 for rate of interest.
+n: .01
+
+Enter a whole number >= 1 for compounding time.
+n: 3
+Total net gain in APY compounding
+1030.3
+
+Menu options
+1) Compounding APY by Recursively function
+2) Compounding APY by Loop and functions.
+3) Quit the program.
+Enter a valid input: 2
+
+Enter a whole number >= 1 for balance.
+balance: 1000
+
+Enter a whole number 1%-10% = 0.01& 0.1 <1 for rate of interest.
+n: 0.05
+
+Enter a whole number >= 1 for compounding time.
+n: 5
+Total net gain in APY compounding
+1276.28
+
+Menu options
+1) Compounding APY by Recursively function
+2) Compounding APY by Loop and functions.
+3) Quit the program.
+Enter a valid input: 1
+
+Enter a whole number >= 1 for balance.
+balance: 100
+
+Enter a whole number 1%-10% = 0.01& 0.1 <1 for rate of interest.
+n: .1
+
+Enter a whole number >= 1 for compounding time.
+n: 12
+Total net gain in APY compounding
+313.843
+
+Menu options
+1) Compounding APY by Recursively function
+2) Compounding APY by Loop and functions.
+3) Quit the program.
+Enter a valid input: 3
+
+Quitting program...
+
+sh: 1: pause: not found
