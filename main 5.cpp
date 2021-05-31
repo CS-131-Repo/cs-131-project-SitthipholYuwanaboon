@@ -12,7 +12,7 @@ int main()
     double rate=0.0;
     double balance=0.0;
 
-    cout << computeRecursive(100, 5, 5);
+    // cout << computeRecursive(100, 5, 5);
 
     do
     {
@@ -32,7 +32,7 @@ int main()
             break;
         case 2:  setInput(n,rate, balance);
              cout << "Total net gain in APY compounding\n";
-             cout << computeRecursive(balance,rate,n)  << "\n\n";
+             cout << computeIterative(balance,rate,n)  << "\n\n";
             break;
         case 3: cout << "\nQuitting program...\n\n";
             break;
@@ -53,7 +53,7 @@ if ( time <= 0 )
   return Balance; 
 } 
 
-return computeRecursive(Balance*(1+rate), rate, time-1);
+return computeRecursive(Balance*(1+rate/100), rate, time-1);
 } 
 
 
@@ -99,8 +99,8 @@ void setInput(int &time,double& rate,double &balance)
         cin >> balance;
     }
 
-    cout << "\nEnter a whole number 1%-10% = 0.01& 0.1 <1 for rate of interest.\n"
-         << "n: ";
+    cout << "\nEnter a whole number 1%-10% as 1 to 10 for rate of interest.\n"
+         << "rate: ";
     cin >> rate;
 
     while (cin.fail() || rate < -1)
@@ -113,7 +113,7 @@ void setInput(int &time,double& rate,double &balance)
     }
 
     cout << "\nEnter a whole number >= 1 for compounding time.\n"
-         << "n: ";
+         << "compounding: ";
     cin >> time;
 
     while (cin.fail() || time < 1)
@@ -127,3 +127,46 @@ void setInput(int &time,double& rate,double &balance)
 }
 
 
+// Menu options
+// 1) Compounding APY by Recursively function
+// 2) Compounding APY by Loop and functions.
+// 3) Quit the program.
+// Enter a valid input: 1
+
+// Enter a whole number >= 1 for balance.
+// balance: 10
+
+// Enter a whole number 1%-10% as 1 to 10 for rate of interest.
+// rate: 10
+
+// Enter a whole number >= 1 for compounding time.
+// compounding: 5
+// Total net gain in APY compounding
+// 16.1051
+
+// Menu options
+// 1) Compounding APY by Recursively function
+// 2) Compounding APY by Loop and functions.
+// 3) Quit the program.
+// Enter a valid input: 2
+
+// Enter a whole number >= 1 for balance.
+// balance: 10
+
+// Enter a whole number 1%-10% as 1 to 10 for rate of interest.
+// rate: 10
+
+// Enter a whole number >= 1 for compounding time.
+// compounding: 10
+// Total net gain in APY compounding
+// 25.9374
+
+// Menu options
+// 1) Compounding APY by Recursively function
+// 2) Compounding APY by Loop and functions.
+// 3) Quit the program.
+// Enter a valid input: 3
+
+// Quitting program...
+
+// sh: 1: pause: not found
