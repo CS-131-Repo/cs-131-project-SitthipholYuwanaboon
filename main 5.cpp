@@ -66,7 +66,7 @@ return computeRecursive(Balance*(1+rate/100), rate, time-1);
 
 void printTable(double Balance, double rate, double time){
 float bal = Balance;
-    for (int i = 0; i < time+1; i++)
+    for (int i = 0; i < time; i++)
     {
        // Compute the interest for this period
        float interest = bal*rate/100;
