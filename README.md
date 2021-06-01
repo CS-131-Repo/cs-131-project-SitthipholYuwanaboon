@@ -6,11 +6,11 @@
 
 ## FAILURE TO FILL OUT THE INFORMATION BELOW CORRECTLY WILL CAUSE POINTS TO BE DEDUCTED FROM YOUR ASSIGNMENT.
 
-## Student Name  : 
+## Student Name  : Sitthiphol Yuwanaboon 
 
-## Student ID    : 
+## Student ID    : 900088008  
 
-## Student Email : 
+## Student Email : yuwanas5694@student.laccd.edu
 
 ## Purpose of Repository
 
